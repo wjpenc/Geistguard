@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451768365446",
+    "project_id": "geistguard-168e9",
+    "storage_bucket": "geistguard-168e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451768365446:android:2263c53651500a9968fc07",
+        "android_client_info": {
+          "package_name": "com.example.geistguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf1VxRrFg7mZZqGWOO7z-h89ilgQAkNCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

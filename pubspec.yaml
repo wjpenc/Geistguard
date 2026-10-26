@@ -1,0 +1,55 @@
+name: geistguard
+description: "A flutter-based application for reporting algae blooms in Geist Reservoir"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.4
+  firebase_core: ^5.0.0
+  firebase_auth: ^7.0.0
+  cloud_firestore: ^7.0.0
+  geolocator: ^14.1.2
+  tflite_flutter: ^0.12.1
+  image: ^4.12.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  http: ^1.6.0
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/model.tflite
+    - assets/labels.txt
+    - assets/geist_watershed.geojson
+    - assets/logo_mark.png
+    - assets/logo_mark_light.png
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
+        - asset: assets/fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/DMSans-Bold.ttf
+          weight: 700
+
