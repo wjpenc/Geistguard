@@ -23,8 +23,6 @@ class DefaultFirebaseOptions {
       );
     }
     switch (defaultTargetPlatform) {
-      case TargetPlatform.android:
-        return android;
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
@@ -48,14 +46,6 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCf1VxRrFg7mZZqGWOO7z-h89ilgQAkNCU',
-    appId: '1:451768365446:android:2263c53651500a9968fc07',
-    messagingSenderId: '451768365446',
-    projectId: 'geistguard-168e9',
-    storageBucket: 'geistguard-168e9.firebasestorage.app',
-  );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDFWLQ_kN7aq3yuAe-sOYeZcGfOgFnHlnI',
